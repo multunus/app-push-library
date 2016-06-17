@@ -21,3 +21,17 @@ public void onCreate() {
     AppPusher.init();
 }
 ```
+
+#### Pushing App to the Devices
+
+Here is the format of FCM message to push an app to the device:
+
+``` json
+{
+    "type": "app_install",
+    "name": "<App Name>",
+    "url": "<APK URL>"
+}
+```
+
+Once the message is delivered, the device will download the application and prompt the user to install it.
