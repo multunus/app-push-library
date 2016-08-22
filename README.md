@@ -1,6 +1,6 @@
 # app-push-library
 
-A Library for Android MDM clients to push applications to the device. The library can be integrated with any mobile applications to accept app install messages through FCM.
+This library is a part of [OneMDM](http://multunus.github.io/onemdm-server/) project. A Library for Android MDM clients to push applications to the device. The library can be integrated with any mobile applications to accept app install messages through FCM.
 
 #### Integrating the Library
 
